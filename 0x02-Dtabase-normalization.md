@@ -105,3 +105,26 @@ Remove partial dependencies (all non-key attributes must depend on the entire pr
 Must be in 2NF.
 
 Remove transitive dependencies (attributes must depend only on the primary key).
+
+## Additional Normalization Concepts
+
+### Dependency-Preserving Decomposition
+
+Ensures that functional dependencies remain enforceable without excessive joins.
+
+### Lossless Decomposition
+
+Ensures that when a table is split, joining them reconstructs the original data without losing information.
+
+## Features of Database Normalization
+
+| **Feature**                         | **Description**                                                   |
+|--------------------------------------|-------------------------------------------------------------------|
+| **Elimination of Data Redundancy**   | Reduces repetition of data in different parts of the database    |
+| **Ensuring Data Consistency**        | Prevents inconsistent data from appearing in the database        |
+| **Simplification of Data Management**| Makes data easier to update and retrieve                         |
+| **Improved Database Design**         | Organizes data in a structured manner, making it flexible        |
+| **Avoidance of Update Anomalies**    | Ensures updates are correctly propagated across records          |
+| **Standardization**                  | Creates a uniform and consistent data model                      |
+
+
